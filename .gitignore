@@ -1,0 +1,69 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Datasets
+# =========================
+RDD2022/
+datasets/
+data/
+
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Model weights / checkpoints
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.pb
+
+runs/
+checkpoints/
+weights/
+
+# =========================
+# Logs / experiment outputs
+# =========================
+logs/
+wandb/
+mlruns/
+
+# =========================
+# Temporary / cache files
+# =========================
+*.tmp
+*.log
+.cache/
